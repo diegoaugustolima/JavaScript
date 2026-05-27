@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+                    <meta charset="UTF-8">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <title>Document</title>
+</head>
+<body>
+                    <script>
+                               var idade = Number(window.prompt('Qual a sua idade?'))
+                                     var temCarteira = window.prompt('Tem carteira de motorista? (sim/não)')
+                                     if (idade >= 18 && temCarteira == 'sim') {
+                                        document.write('Pode dirigir!')
+                                     }else if (idade >= 18 && temCarteira == 'nao') {
+                                        document.write('Maior de idade mas sem carteira!')
+                                     } else {
+                                        document.write('Menor de idade!')
+                                     }
+                    </script>
+</body>
+</html>
